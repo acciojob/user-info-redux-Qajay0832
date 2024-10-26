@@ -25,8 +25,8 @@ const App = () => {
       </div>
       <p>Current values in store :</p>
       <div className="output">
-        <p >Name-{user.name}</p>
-        <p >Email-{user.email}</p>
+        Name - {user.name}
+        Email - {user.email}
       </div>
     </div>
   )
