@@ -23,19 +23,10 @@ const App = () => {
         </div>
 
       </div>
+      <p>Current values in store :</p>
       <div className="output">
-        <p>Current values in store :</p>
-        <div>
-          <div>
-            <p style={{display:'inline'}}>Name :</p>
-            <p style={{display:'inline'}}>{user.name}</p>
-          </div>
-          <div>
-            <p style={{display:'inline'}}>Email :</p>
-            <p style={{display:'inline'}}>{user.email}</p>
-          </div>
-
-        </div>
+        <p >Name-{user.name}</p>
+        <p >Email-{user.email}</p>
       </div>
     </div>
   )
