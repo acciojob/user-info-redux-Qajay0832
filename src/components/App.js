@@ -23,7 +23,7 @@ const App = () => {
         </div>
 
       </div>
-      <div>
+      <div className="output">
         <p>Current values in store :</p>
         <div>
           <div>
